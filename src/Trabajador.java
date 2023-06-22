@@ -70,4 +70,9 @@ public class Trabajador {
                 ", edad=" + edad +
                 '}';
     }
+
+
+    public void mostrarDatos() {
+        System.out.println("Teléfono: " + this.getTelefono() + "\nEdad: " + this.getEdad());
+    }
 }

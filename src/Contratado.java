@@ -38,8 +38,5 @@ public class Contratado extends Trabajador implements mostrarInterface{
                 "} " + super.toString();
     }
 
-    @Override
-    public void mostrarDatos() {
-        System.out.println("Teléfono: " + this.getTelefono() + "\nEdad: " + this.getEdad());
-    }
+
 }
